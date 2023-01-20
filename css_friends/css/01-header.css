@@ -1,0 +1,55 @@
+/* PHASE 1: Header */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 32px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    height: 70px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    color: white;
+}
+
+.nav-list {
+    display: block;
+    justify-content: column;
+    color: white;
+}
+
+.nav-list:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.notifications-list {
+    display: none;
+    position: absolute;
+    background-color: red;
+}
+
+.notifications-list li:hover {
+    background-color: black;
+}
+
+.nav-list:hover .notifications-list {
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

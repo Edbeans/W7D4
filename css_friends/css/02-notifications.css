@@ -1,0 +1,6 @@
+/* PHASE 2: Notifications */
+
+.notifications:hover {
+    display: block; 
+    cursor: pointer;
+}
